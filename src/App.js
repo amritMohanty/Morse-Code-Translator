@@ -17,8 +17,6 @@ function fetchTxt(url){
 }
 
 var clickHandler = function handleClick(){
-    // console.log("click detected")
-    // console.log(inputTxt.value)
     fetchTxt(serverURL)
 }
 
