@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Raleway:wght@200&display=swap');
+
+:root{
+    --primary-color: #fef3c7;
+    --theme-color: rgb(68,64,60);
+    --textbox-color:rgba(15,95,154,0.8)
+}
+
+*{
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;;
+}
+body{
+    background-image: url('bg-image2.jpeg');
+    /* background-position: c; */
+    background-repeat: center center cover no-repeat fixed;;
+    border: none;
+    margin: 0 0 30px 0;
+    background-size: cover;
+    color:#fef3c7;
+}
+nav{
+    padding: 10px 10px ;
+    background-color: rgba(68,64,60,0.8);
+    text-align: center;
+    height: auto;
+    top: 0;
+    display: block;
+}
+
+main{
+    /* position: fixed; */
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+button{
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    border: none;
+    margin: 10px;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 0 14px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: var(--primary-color);
+    background-color: var(--textbox-color);
+
+}
+
+textarea{
+    background-color: var(--textbox-color);
+    padding: 10px 10px;
+    border-radius: 15px;
+    box-shadow: 0 14px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: var(--primary-color);
+    height: 20vh;
+    width: 50vh;
+    font-size: larger;
+}
+
+textarea:active{
+    border: none;
+}
+
+footer{
+    background-color: rgba(68,64,60,0.8);
+    position: fixed;
+    text-align: center;
+    width:auto;
+    bottom: 0;
+}
