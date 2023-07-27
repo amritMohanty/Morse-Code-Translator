@@ -64,6 +64,7 @@ textarea{
     color: var(--primary-color);
     height: 20vh;
     width: 50vh;
+    font-size: larger;
 }
 
 textarea:active{
