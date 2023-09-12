@@ -1,4 +1,4 @@
-# Morse-Code-Translator
+# Morse-Code-Translator - [Hosted Link](https://morse-tranzlator.netlify.app)
  This web-application is a translator which translates plain english into morse code. Enjoy!
 
 ### for my reference
